@@ -1,8 +1,9 @@
 .App {
   height: 100vh;
-  background-color: #1a202c;
+  background-color: #222222;
   overflow: scroll;
   text-align: center;
+  font-family: Montserrat;
 }
 
 .container {
@@ -40,60 +41,97 @@
 }
 
 .cta-button {
-  height: 40px;
-  width: 40px;
-  margin-top:25px;
-  border: 0;
-  width: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 10px;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  background: #B40301;
+  border: 2px solid #B40301;
+  color: #fff;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  margin: auto;
-  vertical-align: middle;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+    text-decoration: none;
+
 
 }
+
+
+.cta-button:hover {
+  background: #5f0201;
+  border-color: #5f0201;}
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
-  background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
+  /* background: -webkit-linear-gradient(left, #60c657, #35aee2); */
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  background: #B40301;
+  border: 2px solid #B40301;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   display: inline-block;
-  text-decoration: none ;
+  margin-left:15px;
 }
+
+.connect-wallet-button:hover {
+  background: #5f0201;
+  border-color: #5f0201;}
 
 .submit-gif-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
-  background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
-  margin-left: 10px;
+  /* background: -webkit-linear-gradient(left, #4e44ce, #35aee2); */
+  padding: 15px 40px;
+  height:60px;
+  font-size: 1.1rem;
+  background: #B40301;
+  border: 2px solid #B40301;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-left:15px;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-   bottom: 0;
-  left: 0;
-  padding-top: 5px;
-  padding-bottom: 25px;
-  text-align: center;
-}
+.submit-gif-button:hover {
+  background: #5f0201;
+  border-color: #5f0201;}
+
+  .footer_section {
+    padding: 20px 0;
+    margin-top: 25px;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: stretch;
+    flex-direction: stretch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .footer_section .copyright {
+    color: #9597a2;
+  }
 
 .twitter-logo {
   height: 55px;
 }
 
-.footer-text {
+/* .footer-text {
   color: white;
   font-size: 16px;
   font-weight: bold;
-}
+} */
 
 .gif-grid {
   display: grid;
@@ -124,7 +162,7 @@
   color: white;
   padding: 10px;
   width: 50%;
-  height: 60px;
+  height: 55px;
   font-size: 16px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.25);
@@ -136,3 +174,4 @@
 .connected-container button {
   height: 50px;
 }
+
