@@ -40,7 +40,9 @@
 }
 
 .cta-button {
-  height: 45px;
+  height: 40px;
+  width: 40px;
+  margin-top:25px;
   border: 0;
   width: auto;
   padding-left: 40px;
@@ -50,7 +52,9 @@
   font-size: 16px;
   font-weight: bold;
   color: white;
-  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+
 }
 
 .connect-wallet-button {
@@ -58,7 +62,7 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   display: inline-block;
-
+  text-decoration: none ;
 }
 
 .submit-gif-button {
