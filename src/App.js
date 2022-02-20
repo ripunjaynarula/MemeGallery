@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
-// import GITHUBLogo from "./assets/GITHUB-logo.svg";
 import "./App.css";
 import Footer from "./Footer";
 import Nav from "./Nav";
 
 // Constants
-// const GITHUB_HANDLE = "ripunjaynarula";
-// const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
 
 const App = () => {
   const TEST_GIFS = [
@@ -155,15 +152,7 @@ const App = () => {
           {/* We just need to add the inverse here! */}
           {walletAddress && renderConnectedContainer()}
         </div>
-        {/* <div className="footer-container">
-        <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-           <a 
-            className="cta-button"
-            href={GITHUB_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`Built by @${GITHUB_HANDLE}`}</a> 
-        </div> */}
+        
 
         <Footer/>
       </div>
