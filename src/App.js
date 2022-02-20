@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 // import GITHUBLogo from "./assets/GITHUB-logo.svg";
 import "./App.css";
 import Footer from "./Footer";
+import Nav from "./Nav";
 
 // Constants
-const GITHUB_HANDLE = "ripunjaynarula";
-const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
+// const GITHUB_HANDLE = "ripunjaynarula";
+// const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
 
 const App = () => {
   const TEST_GIFS = [
@@ -142,6 +143,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Nav/>
       {/* This was solely added for some styling fanciness */}
       <div className={walletAddress ? "authed-container" : "container"}>
         <div className="header-container">
@@ -162,7 +164,7 @@ const App = () => {
             rel="noreferrer"
           >{`Built by @${GITHUB_HANDLE}`}</a> 
         </div> */}
-        
+
         <Footer/>
       </div>
     </div>

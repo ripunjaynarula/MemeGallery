@@ -1,9 +1,10 @@
 import { useRef } from "react"
 import Logo from "./assets/logorn.png"
+import "./App.css";
 
 const Nav = () => {
-  const burgerMenuRef = useRef()
-  const listNavRef = useRef()
+  // const burgerMenuRef = useRef()
+  // const listNavRef = useRef()
   const navRef = useRef()
 
   // function ToggleNav() {
