@@ -9,7 +9,6 @@ import kp from './keypair.json'
 // SystemProgram is a reference to the Solana runtime!
 const { SystemProgram, Keypair } = web3;
 
-// Create a keypair for the account that will hold the GIF data.
 const arr = Object.values(kp._keypair.secretKey)
 const secret = new Uint8Array(arr)
 const baseAccount = web3.Keypair.fromSecretKey(secret)
@@ -31,14 +30,7 @@ const opts = {
 // Constants
 
 const App = () => {
-  // const TEST_GIFS = [
-  //   "https://media.giphy.com/media/olAik8MhYOB9K/giphy.gif",
-  //   "https://media.giphy.com/media/Zgo2A2oOpbGhQdf09T/giphy.gif",
-  //   "https://media.giphy.com/media/HzX8pvJLdT01oyAIot/giphy.gif",
-  //   "https://media.giphy.com/media/Ry1MOAeAYXvRVQLPw3/giphy.gif",
-  //   "https://media.giphy.com/media/XCrNuIxkoVqQbG55MP/giphy.gif",
-  //   "https://media.giphy.com/media/w9t0aFMjahdxpKKvzN/giphy.gif",
-  // ];
+  
   // State
   const [walletAddress, setWalletAddress] = useState(null);
   const [inputValue, setInputValue] = useState("");
